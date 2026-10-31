@@ -3,7 +3,6 @@ const reportsCount: number = reports.length;
 function ReportSummary() {
   return (
     <>
-      <h2>Available Reports</h2>
       <p>Total Reports: {reportsCount}</p>
     </>
   );
